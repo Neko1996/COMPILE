@@ -58,17 +58,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LexicalAnalysis\ScannerState.cs" />
+    <Compile Include="LexicalAnalysis\Token.cs" />
+    <Compile Include="LexicalAnalysis\TokenChain.cs" />
+    <Compile Include="Parser\Terminal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LexicalAnalysis\Scanner.cs" />
+    <Compile Include="LexicalAnalysis\ScannerFile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AST\" />
-    <Folder Include="LexicalAnalysis\" />
     <Folder Include="ObjectCode\" />
-    <Folder Include="Parser\" />
     <Folder Include="SemanticAnalysis\" />
     <Folder Include="XML\" />
   </ItemGroup>
